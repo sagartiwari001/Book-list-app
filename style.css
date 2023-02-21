@@ -1,0 +1,198 @@
+
+body
+{
+    background-color: #fdaf07;
+    box-sizing: border-box;
+}
+
+
+/* .container
+{
+    position: absolute;
+    border-radius: 2em;
+    height: 40em;
+    width:50em;
+    border: 2px solid;
+    left: 20%;
+    right: 20%;
+    background-color: rgb(161, 159, 45);
+} */
+#img1
+{
+    position: absolute;
+    height: 60px;
+    width:90px;
+    top: 1em;
+    left: 29%;
+
+}
+
+.display-4
+{
+    position: relative;
+    left: 37%;
+    top: 0.5em;
+    color: rgb(19, 14, 14);
+}
+
+.form-control1
+{
+
+    position: relative;
+    border-radius: 1em;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    top: 5em;
+    left: 27%;
+    height: 2.2em;
+    width: 20em;
+    margin-top: 0.5em;
+}
+.form-control2
+{
+
+    position: relative;
+    border-radius: 1em;
+    border: none;
+    top: 5.6em;
+    left: 25%;
+    height: 2.2em;
+    width: 20em;
+    margin-top: 0.5em;
+    
+}
+.form-control3
+{
+
+    position: relative;
+    border: none;
+    border-radius: 1em;
+    top: 6.2em;
+    left: 26%;
+    height: 2.2em;
+    width: 20em;
+    margin-top: 0.5em;
+    
+}
+.btn
+{
+    position: relative;
+    cursor: pointer;
+    background-color: rgb(245, 232, 232);
+    border: none;
+    border-radius: 1em;
+    top: 7.5em;
+    left: 34%;
+    height: 2rem;
+    width: 12rem;
+
+}
+.btn:hover
+{
+    background-color: #1bdbd2;
+}
+.title
+{
+    position:relative;
+    font-size: 19px;
+    font-weight: bold;
+    font-family:sans-serif;
+    top: 3.6em;
+    left: 23%;
+    
+}
+
+.author
+{
+    position: relative;
+    font-size: 19px;
+    font-weight: bold;
+    font-family:sans-serif;
+    top: 4.1em;
+    left: 23%;
+}
+.isbn
+{
+    position: relative;
+    font-size: 19px;
+    font-weight: bold;
+    font-family:sans-serif;
+    top: 4.5em;
+    left: 23%;
+    
+}
+
+.th1
+{
+    position:relative;
+    font-size: 19px;
+    font-weight: bold;
+    font-family:sans-serif;
+    top: 7em;
+    left: 8em;
+    padding-left: 7.9em;
+}
+.th2
+{
+    position:relative;
+    font-size: 19px;
+    font-weight: bold;
+    font-family:sans-serif;
+    top: 7em;
+    left: 8em;
+   padding-left: 7.9em;
+}
+.th3
+{
+    position:relative;
+    font-size: 19px;
+    font-weight: bold;
+    font-family:sans-serif;
+    top: 7em;
+    left: 8em;
+    padding-left: 7.9em;
+
+}
+tbody
+{
+    position:relative;
+    font-size: 19px;
+    font-weight: bold;
+    font-family:sans-serif;
+    top: 8.5em;
+    left: 15.9em;
+    padding-left: 3.5em;
+    padding-top: 2em;
+
+}
+.btn1
+{
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    font-family:sans-serif;
+    top: 0em;
+    padding-left: 1.5em;
+    
+   
+}
+.btn:hover
+{
+    color: blueviolet;
+}
+.hr1
+{
+  position: relative;
+  top: 9em;
+  height: 3px;
+  background-color: #5f4a4a6c;
+
+}
+
+.hr2
+{
+  position: relative;
+  top: 11.5em;
+  height: 3px;
+  background-color: #5f4a4a6c;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/fontawesome.min.js" integrity="sha512-36dJpwdEm9DCm3k6J0NZCbjf8iVMEP/uytbvaiOKECYnbCaGODuR4HSj9JFPpUqY98lc2Dpn7LpyPsuadLvTyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/yeti/">
+    <link rel="stylesheet" href="">
+    <title>MyBookList-App</title>
+</head>
+<body>
+    <div class="container mt-4">
+      
+      
+        <h1 class="display-4">
+          <i class="text-primary">My</i><span class="text-primary">Book</span>List</h1>
+          <form id="book-form">
+            <img src="./chat (1).svg" id="img1">
+            <div class="form-group">
+              <label for="title" class="title">Title</label>
+              <input type="text" id="title" class="form-control1">
+            </div>
+            <div class="form-group">
+              <label for="author" class="author">Author</label>
+              <input type="text" id="author" class="form-control2">
+            </div>
+            <div class="form-group">
+              <label for="isbn" class="isbn">ISBN#</label>
+              <input type="text" id="isbn" class="form-control3">
+            </div>
+            <input type="submit" value="Add Book" class="btn btn-primary btn-block">
+          </form>
+          <table class="table table-striped mt-5">
+            <thead>
+              <tr>
+                <hr class="hr1">
+                <th class=" th1">Title</th>
+                <th class="th2">Author</th>
+                <th class="th3">ISBN#</th>
+                <hr class="hr2">
+            
+              </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+           
+      
+          </table>
+      </div>
+      <script src="style.js"></script>
+    
+    
+</body>
+</html>
